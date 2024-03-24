@@ -60,7 +60,7 @@
 
     - name: Copy the Nginx config file to /etc/nginx/sites-available
       copy:
-        src: /workspaces/ensf400-lab5-ansible/assignment2/nginx.conf
+        src: ./assignment2/nginx.conf
         dest: /etc/nginx/sites-available/loadbalancer.conf
       become: yes
 
